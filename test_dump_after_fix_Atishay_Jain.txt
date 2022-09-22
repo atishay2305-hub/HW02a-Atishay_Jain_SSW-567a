@@ -1,0 +1,8 @@
+PS C:\Users\atish> python -u "c:\Users\atish\Downloads\TestTriangle-1.py"
+Running unit tests
+.........
+----------------------------------------------------------------------
+Ran 9 tests in 0.000s
+
+OK
+PS C:\Users\atish>

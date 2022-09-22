@@ -1,0 +1,41 @@
+PS C:\Users\atish> python -u "c:\Users\atish\Downloads\TestTriangle-1 (1).py"
+Running unit tests
+FFF
+======================================================================
+FAIL: testEquilateralTriangles (__main__.TestTriangles)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "c:\Users\atish\Downloads\TestTriangle-1 (1).py", line 27, in testEquilateralTriangles
+    self.assertEqual(classifyTriangle(1,1,1),'Equilateral','1,1,1 should be equilateral')
+AssertionError: 'InvalidInput' != 'Equilateral'
+- InvalidInput
++ Equilateral
+ : 1,1,1 should be equilateral
+
+======================================================================
+FAIL: testRightTriangleA (__main__.TestTriangles)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "c:\Users\atish\Downloads\TestTriangle-1 (1).py", line 21, in testRightTriangleA
+    self.assertEqual(classifyTriangle(3,4,5),'Right','3,4,5 is a Right triangle')
+AssertionError: 'InvalidInput' != 'Right'
+- InvalidInput
++ Right
+ : 3,4,5 is a Right triangle
+
+======================================================================
+FAIL: testRightTriangleB (__main__.TestTriangles)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "c:\Users\atish\Downloads\TestTriangle-1 (1).py", line 24, in testRightTriangleB
+    self.assertEqual(classifyTriangle(5,3,4),'Right','5,3,4 is a Right triangle')
+AssertionError: 'InvalidInput' != 'Right'
+- InvalidInput
++ Right
+ : 5,3,4 is a Right triangle
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.001s
+
+FAILED (failures=3)
+PS C:\Users\atish> 
